@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: word-count
+  description: "Simple Java project for word counting."
+  tags:
+    - big data
+    - cicd
+    - demo
+    - java
+  annotations:
+    github.com/project-slug: sylonly1/WordCount
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sylonly1
+  system: Demo
